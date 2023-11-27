@@ -1,0 +1,227 @@
+*{
+     margin: 0px auto;
+     padding: 0px auto;
+}
+
+body {
+     background-color: #303030;
+}
+
+/* ################################################## */
+
+.image_link {
+     cursor: pointer;
+}
+.image_link:hover {
+     transition: 0.3s ease;
+     opacity: 0.5;
+}
+
+/* - */
+
+.RALELU_MARCAS_SMALL {
+     pointer-events: none;
+     height: 75px;
+     padding: 15px;
+     border-bottom: 1px solid white;
+}
+.RALELU_MARCAS_BIG {
+     pointer-events: none;
+     height: 60px;
+     align-self: flex-end;
+     border-bottom: 1px solid white;
+     padding: 15px;
+}
+.RALELU_MARCAS_linha {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+
+/* ############################## */
+
+#LOGO_e_CTA {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+     background-color: #303030;
+}
+
+#LOGO {
+     pointer-events: none;
+     height: 80px;
+}
+
+#CTA {
+     display: flex;
+     align-items: center;
+     font-family: 'Abril Fatface', serif;
+     letter-spacing: 6px;
+     color: white;
+     gap: 15px;
+}
+
+#CTA_conteiner_image_link img {
+     width: 60px;
+}
+
+#CTA_conteiner_image_link {
+     display: flex;
+     gap: 15px;
+     padding: 10px 20px 10px 20px;
+     border-radius: 30px;
+     background-color: #202020;
+}
+
+/* ############### */
+
+#CONTEUDO_MAIN {
+     background: linear-gradient(to right, #CB6CE6, #5E17EB, #FDC236);
+}
+
+#CONTEUDO_MAIN_TITULO_RALELU_MARCAS {
+     text-align: center;
+     color: white;
+     font-family: 'Abril Fatface', serif;
+     letter-spacing: 6px;
+     text-shadow: 5px 4px 8px #303030;
+}
+
+#CONTEUDO_MAIN_TITULO_produtos {
+     margin-top: -20px;
+}
+
+#CONTEUDO_MAIN_RALELU_MARCAS {
+     width: 80%;
+     flex-direction: column;
+     justify-content: space-evenly;
+     padding: 15px;
+     border: 5px solid white;
+     border-radius: 30px;
+}
+
+/* ############### */
+
+#RODAPE_CREDITOS {
+     display: flex;
+     padding: 4px;
+     align-items: center;
+     color: #919191;
+     background-color: #303030;
+}
+
+#link_dev{
+     color: #919191;
+}
+#link_dev:hover {
+     transition: 0.3s ease;
+     color: white;
+}
+
+#image_icon_link_dev {
+     height: 15px;
+     align-items: center;
+     pointer-events: none;
+}
+
+/* ########## RESPONSIVIDADE ########## */
+
+@media screen and (max-width: 900px) {
+     
+     #conteiner_LOGO {
+          display: flex;
+          justify-content: center;
+          background-color: #202020;
+          width: 70%;
+          padding: 10px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+     }
+
+     #LOGO_e_CTA {
+          padding-top: 0px;
+          gap: 20px;
+     }
+
+     .RALELU_MARCAS_BIG {
+          pointer-events: none;
+          height: 33px;
+          align-self: flex-end;
+          border-bottom: 1px solid white;
+          padding: 15px;
+     }
+
+}
+
+@media screen and (max-width: 650px) {
+     
+     #CTA {
+          flex-wrap: wrap;
+          font-size: 15px;
+     }
+
+     #LOGO {
+          height: 60px;
+     }
+
+}
+
+
+@media screen and (max-width: 610px) {
+     
+     #CTA_conteiner_image_link {
+          gap: 30px;
+     }
+
+}
+
+@media screen and (min-width: 1115px) {
+
+     #CONTEUDO_MAIN_TITULO_nossos {
+          font-size: 90px;
+     }
+
+}
+
+@media screen and (max-width: 1114px) {
+
+     #CONTEUDO_MAIN_TITULO_nossos {
+          font-size: 60px;
+     }
+
+}
+
+@media screen and (max-width: 740px) {
+
+     #CONTEUDO_MAIN_TITULO_nossos {
+          font-size: 40px;
+     }
+     
+}
+
+
+@media screen and (max-width: 540px) {
+
+     #CONTEUDO_MAIN_TITULO_nossos {
+          font-size: 30px;
+     }
+
+}
+
+@media screen and (max-width: 430px) {
+
+     #CONTEUDO_MAIN_TITULO_nossos {
+          font-size: 21px;
+     }
+
+     #CTA {
+          font-size: 11px;
+     }
+
+     #CTA_conteiner_image_link img {
+          width: 50px;
+     }
+
+}
