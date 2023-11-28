@@ -90,7 +90,7 @@ body {
 }
 
 #CONTEUDO_MAIN_RALELU_MARCAS {
-     width: 80%;
+     width: 85%;
      display: grid;
      gap: 15px;
      background-color: #f1f1f1;
@@ -101,32 +101,43 @@ body {
 
 #CONTEUDO_ITENS_RALELU_MARCAS {
      display: flex;
+     width: auto;
      align-items: center;
      background-color: #202020;
      padding: 20px;
      border: 5px solid #303030;
      border-radius: 30px;
-     gap: 30px;
+     gap: 40px;
 }
+.IMAGE_ITENS_RALELU_MARCAS {
+     height: 120px;
+     background-size: cover;
+}
+
 .ITENS_RALELU_MARCAS_COPY_TEXT {
      font-family: 'Inter', sans-serif;
      color: #f1f1f1;
      font-size: 15px;
+     text-align: left;
 }
 
 /* - */
 
 #CONTEUDO_MAIN_RALELU_OFERTAS {
-     width: 80%;
+     width: 85%;
      display: flex;
-     gap: 30px;
-     flex-wrap: wrap;
+     gap: 20px;
      align-items: center;
-     justify-content: space-around;
      background-color: #202020;
-     padding: 15px;
+     padding: 20px;
      border: 5px solid #f1f1f1;
      border-radius: 30px;
+}
+
+#ITENS_RALELU_OFERTAS_COPY_TEXT {
+     text-align: left;
+     color: #f1f1f1;
+     font-size: 21px;
 }
 
 /* ############### */
@@ -181,6 +192,17 @@ body {
           padding: 15px;
      }
 
+     /* ############### */
+
+     #CONTEUDO_ITENS_RALELU_MARCAS {
+          flex-wrap: wrap;
+          gap: 20px;
+     }
+
+     .ITENS_RALELU_MARCAS_COPY_TEXT {
+          text-align: center;
+     }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -192,6 +214,15 @@ body {
 
      #LOGO {
           height: 60px;
+     }
+
+     #CONTEUDO_MAIN_RALELU_OFERTAS {
+          display: grid;
+     }
+
+     #ITENS_RALELU_OFERTAS_COPY_TEXT {
+          font-size: 19px;
+          text-align: center;
      }
 
 }
@@ -219,6 +250,10 @@ body {
           font-size: 60px;
      }
 
+     .IMAGE_ITENS_RALELU_MARCAS {
+          height: 80px;
+     }
+
 }
 
 @media screen and (max-width: 740px) {
@@ -234,6 +269,10 @@ body {
 
      #CONTEUDO_MAIN_TITULO_nossos {
           font-size: 30px;
+     }
+
+     .ITENS_RALELU_MARCAS_COPY_TEXT {
+          font-size: 13px;
      }
 
 }
