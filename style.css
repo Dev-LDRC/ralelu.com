@@ -93,22 +93,22 @@ body {
      width: 85%;
      display: grid;
      gap: 15px;
-     background-color: #f1f1f1;
+     background-color: #f1f1f100;
      padding: 15px;
      border: 5px solid #303030;
      border-radius: 30px;
 }
 
 #CONTEUDO_ITENS_RALELU_MARCAS {
-     display: flex;
+     display: grid;
      width: auto;
      justify-content: center;
      align-items: center;
      background-color: #202020;
      padding: 20px;
-     border: 5px solid #303030;
+     border: 5px solid #f1f1f1;
      border-radius: 30px;
-     gap: 40px;
+     gap: 25px;
 }
 .IMAGE_ITENS_RALELU_MARCAS {
      height: 120px;
@@ -118,8 +118,8 @@ body {
 .ITENS_RALELU_MARCAS_COPY_TEXT {
      font-family: 'Inter', sans-serif;
      color: #f1f1f1;
-     font-size: 15px;
-     text-align: left;
+     font-size: 18px;
+     text-align: justify;
 }
 
 /* - */
@@ -127,7 +127,7 @@ body {
 #CONTEUDO_MAIN_RALELU_OFERTAS {
      width: 85%;
      display: flex;
-     gap: 20px;
+     gap: 30px;
      align-items: center;
      background-color: #202020;
      padding: 20px;
@@ -136,7 +136,7 @@ body {
 }
 
 #CONTEINER_RALELU_OFERTAS_COPY_TEXT {
-     width: 70%;
+     width: 100%;
      font-family: 'Inter', sans-serif;
      font-size: 15px;
 }
@@ -206,10 +206,6 @@ body {
           gap: 20px;
      }
 
-     .ITENS_RALELU_MARCAS_COPY_TEXT {
-          text-align: center;
-     }
-
 }
 
 @media screen and (max-width: 650px) {
@@ -229,7 +225,7 @@ body {
 
      #ITENS_RALELU_OFERTAS_COPY_TEXT {
           font-size: 19px;
-          text-align: center;
+          text-align: justify;
      }
 
 }
@@ -268,6 +264,10 @@ body {
      #CONTEUDO_MAIN_TITULO_nossos {
           font-size: 40px;
      }
+
+     .ITENS_RALELU_MARCAS_COPY_TEXT {
+          font-size: 15px;
+     }
      
 }
 
@@ -276,10 +276,6 @@ body {
 
      #CONTEUDO_MAIN_TITULO_nossos {
           font-size: 30px;
-     }
-
-     .ITENS_RALELU_MARCAS_COPY_TEXT {
-          font-size: 13px;
      }
 
      #image_tupperware {
@@ -300,7 +296,7 @@ body {
 
      #ITENS_RALELU_OFERTAS_COPY_TEXT {
           font-size: 16px;
-          text-align: center;
+          text-align: justify;
      }
 
      #CTA_conteiner_image_link img {
@@ -311,9 +307,6 @@ body {
           height: 60px;
      }
 
-     #CONTEUDO_MAIN_RALELU_MARCAS {
-          width: 70%;
-     }
      #CONTEUDO_MAIN_RALELU_OFERTAS {
           width: 70%;
      }
@@ -321,6 +314,5 @@ body {
      #image_tupperware {
           height: 40px;
      }
-
 
 }
