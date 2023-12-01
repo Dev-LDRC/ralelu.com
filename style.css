@@ -89,31 +89,31 @@ body {
      text-shadow: 5px 4px 8px #303030;
 }
 
-#CONTEUDO_MAIN_RALELU_MARCAS {
+#CONTEINER_MAIN_RALELU_MARCAS {
      width: 85%;
      display: grid;
-     gap: 15px;
-     background-color: #f1f1f100;
-     padding: 15px;
-     border: 5px solid #303030;
      border-radius: 30px;
+     gap: 15px;
+     padding: 20px;
+     border: 5px solid #303030;
 }
 
-#CONTEUDO_ITENS_RALELU_MARCAS {
-     display: grid;
-     width: auto;
-     justify-content: center;
-     align-items: center;
+.CONTEUDO_CONTEINER_RALELU_MARCAS {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     gap: 15px;
+}
+
+.IMAGE_ITENS_RALELU_MARCAS {
      background-color: #202020;
-     padding: 20px;
+     padding: 30px;
      border: 5px solid #f1f1f1;
      border-radius: 30px;
-     gap: 25px;
-}
-.IMAGE_ITENS_RALELU_MARCAS {
      height: 120px;
      background-size: cover;
 }
+
 
 .ITENS_RALELU_MARCAS_COPY_TEXT {
      font-family: 'Inter', sans-serif;
@@ -284,7 +284,7 @@ body {
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 445px) {
 
      #CONTEUDO_MAIN_TITULO_nossos {
           font-size: 18px;
@@ -305,6 +305,10 @@ body {
 
      .IMAGE_ITENS_RALELU_MARCAS {
           height: 60px;
+     }
+
+     #CONTEINER_MAIN_RALELU_MARCAS {
+          width: 70%;
      }
 
      #CONTEUDO_MAIN_RALELU_OFERTAS {
