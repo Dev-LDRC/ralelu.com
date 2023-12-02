@@ -23,13 +23,13 @@ body {
      pointer-events: none;
      height: 75px;
      padding: 15px;
-     border-bottom: 1px solid white;
+     border-bottom: 1px solid #f1f1f1;
 }
 .RALELU_MARCAS_BIG {
      pointer-events: none;
      height: 60px;
      align-self: flex-end;
-     border-bottom: 1px solid white;
+     border-bottom: 1px solid #f1f1f1;
      padding: 15px;
 }
 .RALELU_MARCAS_linha {
@@ -59,7 +59,7 @@ body {
      align-items: center;
      font-family: 'Abril Fatface', serif;
      letter-spacing: 6px;
-     color: white;
+     color: #f1f1f1;
      gap: 15px;
 }
 
@@ -83,23 +83,68 @@ body {
 
 #CONTEUDO_MAIN_TITULO_RALELU_MARCAS {
      text-align: center;
-     color: white;
+     color: #f1f1f1;
      font-family: 'Abril Fatface', serif;
      letter-spacing: 6px;
      text-shadow: 5px 4px 8px #303030;
 }
 
-#CONTEUDO_MAIN_TITULO_produtos {
-     margin-top: -20px;
+#CONTEINER_MAIN_RALELU_MARCAS {
+     width: 85%;
+     display: grid;
+     border-radius: 30px;
+     gap: 15px;
+     padding: 20px;
+     border: 5px solid #f1f1f1;
 }
 
-#CONTEUDO_MAIN_RALELU_MARCAS {
-     width: 80%;
-     flex-direction: column;
-     justify-content: space-evenly;
-     padding: 15px;
-     border: 5px solid white;
+.CONTEUDO_CONTEINER_RALELU_MARCAS {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     gap: 15px;
+}
+
+.IMAGE_ITENS_RALELU_MARCAS {
+     background-color: #202020;
+     padding: 30px;
+     border: 5px solid #f1f1f1;
      border-radius: 30px;
+     height: 120px;
+     background-size: cover;
+}
+
+
+.ITENS_RALELU_MARCAS_COPY_TEXT {
+     font-family: 'Inter', sans-serif;
+     color: #f1f1f1;
+     font-size: 18px;
+     text-align: justify;
+}
+
+/* - */
+
+#CONTEUDO_MAIN_RALELU_OFERTAS {
+     width: 85%;
+     display: flex;
+     gap: 30px;
+     align-items: center;
+     background-color: #202020;
+     padding: 20px;
+     border: 5px solid #f1f1f1;
+     border-radius: 30px;
+}
+
+#CONTEINER_RALELU_OFERTAS_COPY_TEXT {
+     width: 100%;
+     font-family: 'Inter', sans-serif;
+     font-size: 15px;
+}
+
+#ITENS_RALELU_OFERTAS_COPY_TEXT {
+     text-align: left;
+     color: #f1f1f1;
+     font-size: 21px;
 }
 
 /* ############### */
@@ -112,12 +157,13 @@ body {
      background-color: #303030;
 }
 
-#link_dev{
+#link_dev {
      color: #919191;
 }
 #link_dev:hover {
      transition: 0.3s ease;
-     color: white;
+     text-decoration: none;
+     color: #f1f1f1;
 }
 
 #image_icon_link_dev {
@@ -149,8 +195,15 @@ body {
           pointer-events: none;
           height: 33px;
           align-self: flex-end;
-          border-bottom: 1px solid white;
+          border-bottom: 1px solid #f1f1f1;
           padding: 15px;
+     }
+
+     /* ############### */
+
+     #CONTEUDO_ITENS_RALELU_MARCAS {
+          flex-wrap: wrap;
+          gap: 20px;
      }
 
 }
@@ -164,6 +217,15 @@ body {
 
      #LOGO {
           height: 60px;
+     }
+
+     #CONTEUDO_MAIN_RALELU_OFERTAS {
+          display: grid;
+     }
+
+     #ITENS_RALELU_OFERTAS_COPY_TEXT {
+          font-size: 19px;
+          text-align: justify;
      }
 
 }
@@ -191,12 +253,20 @@ body {
           font-size: 60px;
      }
 
+     .IMAGE_ITENS_RALELU_MARCAS {
+          height: 80px;
+     }
+
 }
 
 @media screen and (max-width: 740px) {
 
      #CONTEUDO_MAIN_TITULO_nossos {
           font-size: 40px;
+     }
+
+     .ITENS_RALELU_MARCAS_COPY_TEXT {
+          font-size: 15px;
      }
      
 }
@@ -208,20 +278,45 @@ body {
           font-size: 30px;
      }
 
+     #image_tupperware {
+          height: 50px;
+     }
+
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 445px) {
 
      #CONTEUDO_MAIN_TITULO_nossos {
-          font-size: 21px;
+          font-size: 18px;
      }
 
      #CTA {
           font-size: 11px;
      }
 
+     #ITENS_RALELU_OFERTAS_COPY_TEXT {
+          font-size: 16px;
+          text-align: justify;
+     }
+
      #CTA_conteiner_image_link img {
-          width: 50px;
+          width: 53px;
+     }
+
+     .IMAGE_ITENS_RALELU_MARCAS {
+          height: 60px;
+     }
+
+     #CONTEINER_MAIN_RALELU_MARCAS {
+          width: 70%;
+     }
+
+     #CONTEUDO_MAIN_RALELU_OFERTAS {
+          width: 70%;
+     }
+
+     #image_tupperware {
+          height: 40px;
      }
 
 }
