@@ -51,6 +51,9 @@ body {
 
 #LOGO {
      pointer-events: none;
+     padding: 20px;
+     background-color: #151515;
+     border-radius: 10px;
      height: 80px;
 }
 
@@ -93,6 +96,7 @@ body {
      width: 85%;
      display: grid;
      border-radius: 30px;
+     background-color: #303030;
      gap: 15px;
      padding: 20px;
      border: 5px solid #f1f1f1;
@@ -106,7 +110,7 @@ body {
 }
 
 .IMAGE_ITENS_RALELU_MARCAS {
-     background-color: #202020;
+     background-color: #151515;
      padding: 30px;
      border: 5px solid #f1f1f1;
      border-radius: 30px;
@@ -129,7 +133,7 @@ body {
      display: flex;
      gap: 30px;
      align-items: center;
-     background-color: #202020;
+     background-color: #303030;
      padding: 20px;
      border: 5px solid #f1f1f1;
      border-radius: 30px;
@@ -179,7 +183,7 @@ body {
      #conteiner_LOGO {
           display: flex;
           justify-content: center;
-          background-color: #202020;
+          background-color: #151515;
           width: 70%;
           padding: 10px;
           border-bottom-left-radius: 20px;
