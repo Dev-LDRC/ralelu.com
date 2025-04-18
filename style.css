@@ -111,10 +111,11 @@ body {
 
 .IMAGE_ITENS_RALELU_MARCAS {
      background-color: #151515;
-     padding: 30px;
+     /* padding: 30px; */
+     padding: 5px;
      border: 5px solid #f1f1f1;
      border-radius: 30px;
-     height: 120px;
+     height: 450px;
      background-size: cover;
 }
 
@@ -258,7 +259,7 @@ body {
      }
 
      .IMAGE_ITENS_RALELU_MARCAS {
-          height: 80px;
+          height: 350px;
      }
 
 }
@@ -308,7 +309,7 @@ body {
      }
 
      .IMAGE_ITENS_RALELU_MARCAS {
-          height: 60px;
+          height: 150px;
      }
 
      #CONTEINER_MAIN_RALELU_MARCAS {
